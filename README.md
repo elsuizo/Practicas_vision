@@ -35,7 +35,9 @@ Practica4: http://nbviewer.ipython.org/urls/raw.github.com/elsuizo/Practicas_vis
 
 * Ejercicio5: http://nbviewer.ipython.org/github/elsuizo/Practicas_vision/blob/master/Practica1/Julia/ejercicio5.ipynb
 
-* Ejercico6: http://nbviewer.ipython.org/github/elsuizo/Practicas_vision/blob/master/Practica1/Julia/ejercicio6.ipynb
+* Ejercico6-7: http://nbviewer.ipython.org/github/elsuizo/Practicas_vision/blob/master/Practica1/Julia/ejercicio6.ipynb
+
+* Ejercicio8: http://nbviewer.ipython.org/github/elsuizo/Practicas_vision/blob/master/Practica1/Julia/ejercicio8.ipynb
 
 
 ***********************************************************************************************************
