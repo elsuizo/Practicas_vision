@@ -22,3 +22,20 @@ Practica3: http://nbviewer.ipython.org/urls/raw.github.com/elsuizo/Practicas_vis
 Practica4: http://nbviewer.ipython.org/urls/raw.github.com/elsuizo/Practicas_vision/master/practica4.ipynb
 
 ***********************************************************************************************************
+##Julia:
+
+###Ipython notebooks
+####Practica1:
+
+* Ejercicio1: http://nbviewer.ipython.org/github/elsuizo/Practicas_vision/blob/master/Practica1/Julia/ejercicio1.ipynb
+
+* Ejercicio2: http://nbviewer.ipython.org/github/elsuizo/Practicas_vision/blob/master/Practica1/Julia/ejercicio2.ipynb
+
+* Ejercicio4: http://nbviewer.ipython.org/github/elsuizo/Practicas_vision/blob/master/Practica1/Julia/ejercicio4.ipynb
+
+* Ejercicio5: http://nbviewer.ipython.org/github/elsuizo/Practicas_vision/blob/master/Practica1/Julia/ejercicio5.ipynb
+
+* Ejercico6: http://nbviewer.ipython.org/github/elsuizo/Practicas_vision/blob/master/Practica1/Julia/ejercicio6.ipynb
+
+
+***********************************************************************************************************
