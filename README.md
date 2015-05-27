@@ -8,26 +8,39 @@ Practicas_vision
 
 Practicas de la materia visión artificial con diferentes lenguajes
 
-*********************************************************************************************************
+
 ##Python:
 
 ###Ipython notebooks:
 
-Practica1: http://nbviewer.ipython.org/urls/raw.github.com/elsuizo/Practicas_vision/master/practica1.ipynb
+Como ahora github renderiza los notebook no es necesario el nviewer(espere a que cargue)
 
-Practica2: http://nbviewer.ipython.org/urls/raw.github.com/elsuizo/Practicas_vision/master/practica2.ipynb
+####Practica1 
 
-Practica3: http://nbviewer.ipython.org/urls/raw.github.com/elsuizo/Practicas_vision/master/practica3.ipynb
+https://github.com/elsuizo/Practicas_vision/blob/master/Practica1/Python/practica1.ipynb
 
-Practica4: http://nbviewer.ipython.org/urls/raw.github.com/elsuizo/Practicas_vision/master/practica4.ipynb
+####Practica2 
 
-***********************************************************************************************************
+https://github.com/elsuizo/Practicas_vision/blob/master/Practica2/Python/practica2.ipynb
+
+####Practica3 
+
+https://github.com/elsuizo/Practicas_vision/blob/master/Practica3/Python/practica3.ipynb
+
+####Practica4 
+
+https://github.com/elsuizo/Practicas_vision/blob/master/Practica4/Python/practica4.ipynb
+
+
 ##Julia:
 
 ###Ipython notebooks
-####Practica1:
 
-http://nbviewer.ipython.org/github/elsuizo/Practicas_vision/blob/master/Practica1/Julia/practica1.ipynb
+####Practica1
 
+https://github.com/elsuizo/Practicas_vision/blob/master/Practica1/Julia/practica1.ipynb
 
-***********************************************************************************************************
+####Practica2
+
+https://github.com/elsuizo/Practicas_vision/blob/master/Practica2/Julia/practica2.ipynb
+
