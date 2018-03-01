@@ -14,6 +14,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 #*****************************************************************************
 
+# paths to the images
 path1 = 'Imagenes/sci-2.bmp'
 path2 = 'Imagenes/baboon.jpg'
 
