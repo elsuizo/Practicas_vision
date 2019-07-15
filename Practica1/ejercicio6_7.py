@@ -24,7 +24,6 @@ def histograma(imagen):
         h[i] = len(x)/float(imagen.size)  # Normalizamos
     return h
 
-    
 path1 = 'Imagenes/sci-2.bmp'
 path2 = 'Imagenes/sci-3.bmp'
 path3 = 'Imagenes/sci-4.bmp'
@@ -32,12 +31,12 @@ path4 = 'Imagenes/tar-5.bmp'
 path5 = 'Imagenes/tar-6.bmp'
 path6 = 'Imagenes/tar-7.bmp'
 
-img1 = cv2.imread(path1, cv2.CV_LOAD_IMAGE_GRAYSCALE)
-img2 = cv2.imread(path2, cv2.CV_LOAD_IMAGE_GRAYSCALE)
-img3 = cv2.imread(path3, cv2.CV_LOAD_IMAGE_GRAYSCALE)
-img4 = cv2.imread(path4, cv2.CV_LOAD_IMAGE_GRAYSCALE)
-img5 = cv2.imread(path5, cv2.CV_LOAD_IMAGE_GRAYSCALE)
-img6 = cv2.imread(path6, cv2.CV_LOAD_IMAGE_GRAYSCALE)
+img1 = cv2.imread(path1, cv2.IMREAD_GRAYSCALE)
+img2 = cv2.imread(path2, cv2.IMREAD_GRAYSCALE)
+img3 = cv2.imread(path3, cv2.IMREAD_GRAYSCALE)
+img4 = cv2.imread(path4, cv2.IMREAD_GRAYSCALE)
+img5 = cv2.imread(path5, cv2.IMREAD_GRAYSCALE)
+img6 = cv2.imread(path6, cv2.IMREAD_GRAYSCALE)
 
 
 hist1 = histograma(img1)
