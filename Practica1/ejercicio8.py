@@ -20,7 +20,6 @@ def segmentacion_auto_Gonz(image):
     Entrada: imagen (escala de grises)
     Salida: T (valor de segmentacion)
     """
-
     T = 0.5*(np.min(image)+np.max(image))
     flag = False
     while not flag:
@@ -38,12 +37,12 @@ path4 = 'Imagenes/tar-5.bmp'
 path5 = 'Imagenes/tar-6.bmp'
 path6 = 'Imagenes/tar-7.bmp'
 
-img1 = cv2.imread(path1, cv2.CV_LOAD_IMAGE_GRAYSCALE)
-img2 = cv2.imread(path2, cv2.CV_LOAD_IMAGE_GRAYSCALE)
-img3 = cv2.imread(path3, cv2.CV_LOAD_IMAGE_GRAYSCALE)
-img4 = cv2.imread(path4, cv2.CV_LOAD_IMAGE_GRAYSCALE)
-img5 = cv2.imread(path5, cv2.CV_LOAD_IMAGE_GRAYSCALE)
-img6 = cv2.imread(path6, cv2.CV_LOAD_IMAGE_GRAYSCALE)
+img1 = cv2.imread(path1, cv2.IMREAD_GRAYSCALE)
+img2 = cv2.imread(path2, cv2.IMREAD_GRAYSCALE)
+img3 = cv2.imread(path3, cv2.IMREAD_GRAYSCALE)
+img4 = cv2.imread(path4, cv2.IMREAD_GRAYSCALE)
+img5 = cv2.imread(path5, cv2.IMREAD_GRAYSCALE)
+img6 = cv2.imread(path6, cv2.IMREAD_GRAYSCALE)
 
 T1 = segmentacion_auto_Gonz(img1)
 T2 = segmentacion_auto_Gonz(img2)
@@ -53,12 +52,12 @@ T5 = segmentacion_auto_Gonz(img5)
 T6 = segmentacion_auto_Gonz(img6)
 
 
-print T1
-print T2
-print T3
-print T4
-print T5
-print T6
+print(T1)
+print(T2)
+print(T3)
+print(T4)
+print(T5)
+print(T6)
 img1_bin = img1 < T1
 img2_bin = img2 < T2
 img3_bin = img3 < T3
