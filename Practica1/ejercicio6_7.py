@@ -13,15 +13,15 @@ import matplotlib.pyplot as plt
 #******************************************************************************
 
 
-def histograma(imagen):
+def histograma(img):
     """Docstring de la funcion"""
     h = np.zeros(256, dtype=float)
-    for i in xrange(256):
+    for i in range(256):
         x = np.array([])
-        x = np.argwhere(imagen == i)
+        x = np.argwhere(img == i)
         if (len(x) == 0):
             continue
-        h[i] = len(x)/float(imagen.size)  # Normalizamos
+        h[i] = len(x) / float(img.size)  # Normalizamos
     return h
 
 path1 = 'Imagenes/sci-2.bmp'
