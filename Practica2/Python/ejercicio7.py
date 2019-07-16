@@ -13,12 +13,12 @@ import matplotlib.pyplot as plt
 #*****************************************************************************
 
 def ker_prom(n):
-    ker = np.ones((n,n))
+    ker = np.ones((n, n))
     ker_promedio = ker/np.size(ker)
     return ker_promedio
 
-path1 = 'Imagenes/baboon.jpg'
-path2 = 'Imagenes/Rana2.bmp'
+path1 = '../Imagenes/baboon.jpg'
+path2 = '../Imagenes/Rana2.bmp'
 
 img1 = cv2.imread(path1, 0)
 img2 = cv2.imread(path2, 0)
@@ -27,6 +27,9 @@ prom1= cv2.filter2D(img1, -1, ker_prom(4))
 
 prom2= cv2.filter2D(img2, -1, ker_prom(4))
 
+#-------------------------------------------------------------------------
+#                        plots
+#-------------------------------------------------------------------------
 plt.figure()
 plt.imshow(img1, cmap='gray')
 plt.title('Imagen1 original')
