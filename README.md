@@ -1,46 +1,47 @@
 Practicas_vision
 ================
-## Visión artificial 
 
-##Universidad Nacional de Quilmes 
+## Visión artificial
 
-##Ing Automatización y Control
+## Universidad Nacional de Quilmes
+
+## Ing Automatización y Control
 
 Practicas de la materia visión artificial con diferentes lenguajes
 
 
-##Python:
+## Python:
 
-###Ipython notebooks:
+### Ipython notebooks:
 
 Como ahora github renderiza los notebook no es necesario el nviewer(espere a que cargue)
 
-####Practica1 
+#### Practica1
 
 https://github.com/elsuizo/Practicas_vision/blob/master/Practica1/Python/practica1.ipynb
 
-####Practica2 
+#### Practica2
 
 https://github.com/elsuizo/Practicas_vision/blob/master/Practica2/Python/practica2.ipynb
 
-####Practica3 
+#### Practica3
 
 https://github.com/elsuizo/Practicas_vision/blob/master/Practica3/Python/practica3.ipynb
 
-####Practica4 
+#### Practica4
 
 https://github.com/elsuizo/Practicas_vision/blob/master/Practica4/Python/practica4.ipynb
 
 
-##Julia:
+## Julia:
 
-###Ipython notebooks
+### Ipython notebooks
 
-####Practica1
+#### Practica1
 
 https://github.com/elsuizo/Practicas_vision/blob/master/Practica1/Julia/practica1.ipynb
 
-####Practica2
+#### Practica2
 
 https://github.com/elsuizo/Practicas_vision/blob/master/Practica2/Julia/practica2.ipynb
 
