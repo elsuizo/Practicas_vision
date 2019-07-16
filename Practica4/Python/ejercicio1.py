@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 #*************************************************************************
-# 1. A partir de una imagen en escala de grises generar 10 imágenes con 
+# 1. A partir de una imagen en escala de grises generar 10 imágenes con
 # ruido gaussiano. 
 #*************************************************************************
 
@@ -24,18 +24,18 @@ def imnoise(im, sigma, mu):
     return R
 
 #******************************************************************************
-   
-path1 = 'Imagenes/baboon.jpg'
-path2 = 'Imagenes/Rana2.bmp'
+
+path1 = '../Imagenes/baboon.jpg'
+path2 = '../Imagenes/Rana2.bmp'
 img1 = cv2.imread(path1, 0)
 img2 = cv2.imread(path2, 0)
 
-for x in range(0,9):
-    globals()['R' + str(x)] = imnoise(img1,100*x,10+x)
+for x in range(1, 10):
+    globals()['R' + str(x)] = imnoise(img1, 100 * x, 10 + x)
 
 
-for i in range(0,9):
-    ax = plt.subplot(3,3,i)
+for i in range(1, 10):
+    ax = plt.subplot(3, 3, i)
     ax.imshow(globals()['R' + str(i)],cmap='gray')
     ax.set_xticks([])
     ax.set_yticks([])
