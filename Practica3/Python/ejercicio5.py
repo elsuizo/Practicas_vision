@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 #*************************************************************************
-# 5-Aplicar el operador Laplaciano en el dominio de la frecuencia para 
+# 5-Aplicar el operador Laplaciano en el dominio de la frecuencia para
 # destacar detalles en una imagen.
 #*************************************************************************
 
@@ -15,8 +15,8 @@ from scipy import fftpack
 
 
 #cargamos las Imagenes
-path1 = 'Imagenes/baboon.jpg'
-path2 = 'Imagenes/Rana2.bmp'
+path1 = '../Imagenes/baboon.jpg'
+path2 = '../Imagenes/Rana2.bmp'
 img1 = cv2.imread(path1, 0)
 img2 = cv2.imread(path2, 0)
 
@@ -58,6 +58,3 @@ plt.imshow(img1_back,cmap='gray')
 
 
 plt.show()
-
-
-
