@@ -14,8 +14,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 #*****************************************************************************
 
-path1 = 'Imagenes/sci-2.bmp'
-path2 = 'Imagenes/baboon.jpg'
+path1 = '../Imagenes/sci-2.bmp'
+path2 = '../Imagenes/baboon.jpg'
 
 img1 = cv2.imread(path2, 0)
 
@@ -25,6 +25,9 @@ res = np.hstack((img1,eq))
 
 cv2.imwrite('res.png', res)
 
+#-------------------------------------------------------------------------
+#                        plots
+#-------------------------------------------------------------------------
 img_res = cv2.imread('res.png', 0)
 plt.figure()
 plt.imshow(img_res, cmap='gray')
