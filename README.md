@@ -14,8 +14,6 @@ Practicas de la materia visión artificial con diferentes lenguajes
 
 ### Ipython notebooks:
 
-Como ahora github renderiza los notebook no es necesario el nviewer(espere a que cargue)
-
 #### Practica1
 
 https://nbviewer.jupyter.org/github/elsuizo/Practicas_vision/blob/master/Practica1/Python/practica1.ipynb
