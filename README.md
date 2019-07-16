@@ -18,20 +18,19 @@ Como ahora github renderiza los notebook no es necesario el nviewer(espere a que
 
 #### Practica1
 
-https://github.com/elsuizo/Practicas_vision/blob/master/Practica1/Python/practica1.ipynb
+https://nbviewer.jupyter.org/github/elsuizo/Practicas_vision/blob/master/Practica1/Python/practica1.ipynb
 
 #### Practica2
 
-https://github.com/elsuizo/Practicas_vision/blob/master/Practica2/Python/practica2.ipynb
+https://nbviewer.jupyter.org/github/elsuizo/Practicas_vision/blob/master/Practica2/Python/practica2.ipynb
 
 #### Practica3
 
-https://github.com/elsuizo/Practicas_vision/blob/master/Practica3/Python/practica3.ipynb
+https://nbviewer.jupyter.org/github/elsuizo/Practicas_vision/blob/master/Practica3/Python/practica3.ipynb
 
 #### Practica4
 
-https://github.com/elsuizo/Practicas_vision/blob/master/Practica4/Python/practica4.ipynb
-
+https://nbviewer.jupyter.org/github/elsuizo/Practicas_vision/blob/master/Practica4/Python/practica4.ipynb
 
 ## Julia:
 
