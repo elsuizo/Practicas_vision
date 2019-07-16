@@ -14,8 +14,8 @@ import matplotlib.pyplot as plt
 from scipy import fftpack
 #*****************************************************************************
 
-path1 = 'Imagenes/baboon.jpg'
-path2 = 'Imagenes/Rana2.bmp'
+path1 = '../Imagenes/baboon.jpg'
+path2 = '../Imagenes/Rana2.bmp'
 img1 = cv2.imread(path1, 0)
 img2 = cv2.imread(path2, 0)
 
