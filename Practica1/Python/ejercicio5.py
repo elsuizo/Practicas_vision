@@ -14,8 +14,8 @@ import matplotlib.image as mpimg
 #******************************************************************************
 
 #imagen sacada con bajo nivel de iluminacion
-path1 = 'Imagenes/Globos.bmp'
-img1 = cv2.imread(path1, cv2.CV_LOAD_IMAGE_GRAYSCALE)
+path1 = '../Imagenes/Globos.bmp'
+img1 = cv2.imread(path1, 0)
 img1_muestreada = np.zeros_like(img1)
 #Slicing
 img1_muestreada[0:-1:4, 0:-1:4] = img1[0:-1:4, 0:-1:4]

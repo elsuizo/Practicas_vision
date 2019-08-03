@@ -18,12 +18,12 @@ import numpy as np
 import matplotlib.pyplot as plt
 #******************************************************************************
 
-path1 = 'Imagenes/sci-2.bmp'
-path2 = 'Imagenes/sci-3.bmp'
-path3 = 'Imagenes/sci-4.bmp'
-path4 = 'Imagenes/tar-5.bmp'
-path5 = 'Imagenes/tar-6.bmp'
-path6 = 'Imagenes/tar-7.bmp'
+path1 = '../Imagenes/sci-2.bmp'
+path2 = '../Imagenes/sci-3.bmp'
+path3 = '../Imagenes/sci-4.bmp'
+path4 = '../Imagenes/tar-5.bmp'
+path5 = '../Imagenes/tar-6.bmp'
+path6 = '../Imagenes/tar-7.bmp'
 
 img1 = cv2.imread(path1)
 img2 = cv2.imread(path2)

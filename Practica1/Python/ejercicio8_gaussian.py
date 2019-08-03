@@ -13,9 +13,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 #******************************************************************************
 
-path3 = 'Imagenes/sci-4.bmp'
+path3 = '../Imagenes/sci-4.bmp'
 
-img3 = cv2.imread(path3, cv2.CV_LOAD_IMAGE_GRAYSCALE)
+img3 = cv2.imread(path3, 0)
 img3_bin = np.copy(img3)
 img3_bin = cv2.medianBlur(img3_bin, 5)
 

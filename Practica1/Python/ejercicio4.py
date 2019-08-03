@@ -15,7 +15,7 @@ import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 #******************************************************************************
 #Imagen de prueba
-path1 = 'Imagenes/Lapices.bmp'
+path1 = '../Imagenes/Lapices.bmp'
 #leemos la imagen
 img1 = cv2.imread(path1)
 #prealocamos las imagenes que vamos a usar

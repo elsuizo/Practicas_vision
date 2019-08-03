@@ -19,11 +19,11 @@ import matplotlib.image as mpimg
 #******************************************************************************
 
 #imagen sacada con bajo nivel de iluminacion
-path3 = 'Imagenes/sci-4.bmp'
+path3 = '../Imagenes/sci-4.bmp'
 
 #vamos a demostrar como se amplifica el ruido en el sensor ccd
 
-img3_opencv = cv2.imread(path3, cv2.CV_LOAD_IMAGE_GRAYSCALE)
+img3_opencv = cv2.imread(path3, 0)
 img3_matplot = mpimg.imread(path3)  # leemos con matplotlib(python puro)
 
 #extraigo toda la fila 37

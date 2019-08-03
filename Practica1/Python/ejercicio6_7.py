@@ -16,7 +16,7 @@ import matplotlib.pyplot as plt
 def histograma(imagen):
     """Docstring de la funcion"""
     h = np.zeros(256, dtype=float)
-    for i in xrange(256):
+    for i in range(256):
         x = np.array([])
         x = np.argwhere(imagen == i)
         if (len(x) == 0):
@@ -24,20 +24,19 @@ def histograma(imagen):
         h[i] = len(x)/float(imagen.size)  # Normalizamos
     return h
 
-    
-path1 = 'Imagenes/sci-2.bmp'
-path2 = 'Imagenes/sci-3.bmp'
-path3 = 'Imagenes/sci-4.bmp'
-path4 = 'Imagenes/tar-5.bmp'
-path5 = 'Imagenes/tar-6.bmp'
-path6 = 'Imagenes/tar-7.bmp'
+path1 = '../Imagenes/sci-2.bmp'
+path2 = '../Imagenes/sci-3.bmp'
+path3 = '../Imagenes/sci-4.bmp'
+path4 = '../Imagenes/tar-5.bmp'
+path5 = '../Imagenes/tar-6.bmp'
+path6 = '../Imagenes/tar-7.bmp'
 
-img1 = cv2.imread(path1, cv2.CV_LOAD_IMAGE_GRAYSCALE)
-img2 = cv2.imread(path2, cv2.CV_LOAD_IMAGE_GRAYSCALE)
-img3 = cv2.imread(path3, cv2.CV_LOAD_IMAGE_GRAYSCALE)
-img4 = cv2.imread(path4, cv2.CV_LOAD_IMAGE_GRAYSCALE)
-img5 = cv2.imread(path5, cv2.CV_LOAD_IMAGE_GRAYSCALE)
-img6 = cv2.imread(path6, cv2.CV_LOAD_IMAGE_GRAYSCALE)
+img1 = cv2.imread(path1, 0)
+img2 = cv2.imread(path2, 0)
+img3 = cv2.imread(path3, 0)
+img4 = cv2.imread(path4, 0)
+img5 = cv2.imread(path5, 0)
+img6 = cv2.imread(path6, 0)
 
 
 hist1 = histograma(img1)
